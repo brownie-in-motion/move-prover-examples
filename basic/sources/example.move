@@ -4,9 +4,9 @@ module 0x2::Example {
     }
 
     spec increment {
-        // aborting on bad arithmetic already happens at runtime this statement
-        // only indicates the behavior specifically (specs have no effect at
-        // runtime)
+        // aborting on bad arithmetic already happens at runtime. this statement
+        // only indicates the behavior. it would be necessary with the pragma
+        // `aborts_if_is_strict`.
         aborts_if number + 1 > MAX_U64;
 
         // result refers to the return value of the function
