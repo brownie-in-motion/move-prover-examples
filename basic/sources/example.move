@@ -24,7 +24,7 @@ module 0x2::Example {
 
         spec {
             // for inline specs, variables refer to the current context.
-            // only assume and assert is allowed.
+            // only assume and assert are allowed.
             assert first == 0;
             assert second == 0;
         };
