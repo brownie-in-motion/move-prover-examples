@@ -65,7 +65,8 @@ module 0x2::Example {
             // the move prover deals with loops by literally doing induction.
             // this loop invariant is required for it to prove the assertion
             // that `counter` returns 50. the prover is unable to infer loop
-            // invariants, and will return a verification error.
+            // invariants, and will return a verification error if this is not
+            // written.
             spec {
                 invariant i <= 50;
             };
