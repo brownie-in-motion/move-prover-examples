@@ -22,6 +22,6 @@ cargo install --git https://github.com/move-language/move move-cli
 
 # Usage
 
-Run the prover in the Move project with `move prove`. The paths to the `z3`
-and `boogie` executables must be in the `Z3_EXE` and `BOOGIE_EXE` environment
-variables, respectively.
+Run the prover in each Move project with `move prove --path [project]`. The
+paths to the `z3` and `boogie` executables must be in the `Z3_EXE` and
+`BOOGIE_EXE` environment variables, respectively.
