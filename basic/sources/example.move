@@ -18,6 +18,8 @@ module 0x2::Example {
 
         first = 0;
         second = 0;
+
+        // prevent warnings about unused code lol
         _ = first + second;
 
         spec {
