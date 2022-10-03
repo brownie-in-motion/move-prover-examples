@@ -1,5 +1,5 @@
 Moved to
-[zellic/move-prover-examples](https://github.com/zellic/move-prover-examples.)
+[zellic/move-prover-examples](https://github.com/zellic/move-prover-examples).
 
 # Move Prover Examples
 
