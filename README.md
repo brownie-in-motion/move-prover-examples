@@ -1,3 +1,6 @@
+Moved to
+[zellic/move-prover-examples](https://github.com/zellic/move-prover-examples.)
+
 # Move Prover Examples
 
 Extremely simple examples of Move program specifications. The `basic/` examples
